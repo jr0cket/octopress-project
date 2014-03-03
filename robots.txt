@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://jr0cket.github.io/octopress-project/sitemap.xml 
