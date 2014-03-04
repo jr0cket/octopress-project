@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-04T17:55:27+00:00</updated>
+  <updated>2014-03-04T18:04:11+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -44,7 +44,9 @@ rake deploy</p>
 
 <p>To add an image to your post, you add the following code</p>
 
-<p><img class="[class names]" src="http://jr0cket.github.io/octopress-project/path/to/image" title="[width] [height] [title text [alt text]]" ></p>
+<figure class='code'><figcaption><span>[Insert an image in your post]</span><a href='http://octopress.org/docs/plugins/image-tag/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img class="[class names]" src="http://jr0cket.github.io/octopress-project/path/to/image" title="[width] [height] [title text [alt text]]" ></span></code></pre></td></tr></table></div></figure>
+
 
 <p>Here is an example with my two cute cats:</p>
 
