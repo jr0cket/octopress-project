@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-03T23:54:51+00:00</updated>
+  <updated>2014-03-04T17:52:05+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Creating Blog Posts With Octopress]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/04/creating-blog-posts-with-octopress/"/>
+    <updated>2014-03-04T15:46:14+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/04/creating-blog-posts-with-octopress</id>
+    <content type="html"><![CDATA[<p>Octopress provides an easy way to create blog posts by proving a task that will automatically place and name your markdown file.  This helps manage your blog posts in a sensible structure and avoids conflicts.</p>
+
+<p>To create a new post, use the following command inside your Octopress project folder:</p>
+
+<p>rake new_post[&ldquo;Title of your blog post&rdquo;]</p>
+
+<p>This will create a markdown file including frontmatter to apply the blog post style.  The task creates the file under the _source folder and included the date at the start of the filename.</p>
+
+<!-- more -->
+
+
+<p>Now you can edit the file and simply add your content.  Once you have written your blog post you can ask Octopress to generate the html for your new post.</p>
+
+<p>rake generate</p>
+
+<p>You can view the results locally, or simply deploy up to your chosen location (eg. github pages)</p>
+
+<p>rake preview  ;; is that correct ??
+rake deploy</p>
+
+<h2>Adding images</h2>
+
+<p>Images are always a good way to explain concepts or to just get attendtion for your writing.</p>
+
+<p>To add an image to your post, you add the following code</p>
+
+<p><img class="[class names]" src="http://jr0cket.github.io/octopress-project/path/to/image" title="[width] [height] [title text [alt text]]" ></p>
+
+<p>Here is an example with my two cute cats:</p>
+
+<p><img src="images/kittens-snuggled.png"></p>
+
+<p>Thank you</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[First Blog Post Ever - Awesome]]></title>
