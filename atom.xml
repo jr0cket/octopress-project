@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-11T23:52:29+00:00</updated>
+  <updated>2014-03-11T23:57:10+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -160,6 +160,30 @@ rake deploy</p>
 <p><img src="http://jr0cket.github.io/octopress-project/images/kittens-snuggled.png"></p>
 
 <p>Thank you</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Blog Post Ever - Awesome]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome/"/>
+    <updated>2014-03-03T00:08:42+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome</id>
+    <content type="html"><![CDATA[<p>This is the first blog post of many in my adventures in learning how to publish a blog using Octopress.</p>
+
+<p>As a developer I want a lightweight tool to create and easily publish content interesting to other developers in the community.  Although I can write HTML, CSS and JavaScript for webapps, I dont want to be slowed down writing these things when I am doing creative writing.</p>
+
+<p>Using Octopress, which is a blogging framework on top of Jekyll, I can write my content using Markdown.  As Markdown is just simple text with a few characters and indents used for formating, I can focus on the writing and make it as appealing as I can.  I dont get distracted by the visual layout of the content and a standard design for the blog is consistently applied.</p>
+
+<!-- more -->
+
+
+<p>The only challenge I had intially was to get a working copy of Ruby running on my Ubuntu laptop.  Jekyll and therefore Octopress requires Ruby version 1.9.3 or greater and Unfortunately I seemed to have a mix of 1.9.1 and 1.9.3.  In Ubuntu 13.10 there is a strange stiuation where the 1.9.3 version of ruby was installed along side version 1.9.1 and therefore errors arrose when trying to generate the site.</p>
+
+<p>To fix Ruby on Ubuntu, I loaded up Synaptic package manager and removed all Ruby packages and anything related, such as gem and bundler.  Then I installed the package ruby2.0 along with the docs and dev packages for that version.  With only the latest version of Ruby installed, Octopress worked perfectly.</p>
+
+<p>I look forward to sharing my further experiences blogging with Octopress</p>
+
+<p>Thank you.</p>
 ]]></content>
   </entry>
   

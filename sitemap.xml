@@ -2,6 +2,12 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>
+            http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome/
+        </loc>
+        <lastmod>2014-03-03T23:54:42+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
             http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/
         </loc>
         <lastmod>2014-03-05T23:04:23+00:00</lastmod>
