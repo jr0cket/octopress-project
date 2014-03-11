@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Blogging - jr0cket - community developer</title>
+  <title>Creating Blog Posts With Octopress - jr0cket - community developer</title>
   <meta name="author" content="John Stevenson">
 
   
-  <meta name="description" content="Category: blogging">
+  <meta name="description" content="Octopress provides an easy way to create blog posts by proving a task that will automatically place and name your markdown file. This helps manage &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jr0cket.github.io/octopress-projectblog/categories/blogging">
+  <link rel="canonical" href="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress">
   <link href="/octopress-project/favicon.png" rel="icon">
   <link href="/octopress-project/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/octopress-project/atom.xml" rel="alternate" title="jr0cket - community developer" type="application/atom+xml">
@@ -64,35 +64,116 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Blogging</h1>
+    
+      <h1 class="entry-title">Creating Blog Posts With Octopress</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-04T15:46:14+00:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p>Octopress provides an easy way to create blog posts by proving a task that will automatically place and name your markdown file.  This helps manage your blog posts in a sensible structure and avoids conflicts.</p>
 
-  
-  <h2>2014</h2>
+<p>To create a new post, use the following command inside your Octopress project folder:</p>
 
-<article>
-  
-<h1><a href="/octopress-project/blog/2014/03/03/first-blog-post-ever-awesome/">First Blog Post Ever - Awesome</a></h1>
-<time datetime="2014-03-03T00:08:42+00:00" pubdate><span class='month'>Mar</span> <span class='day'>03</span> <span class='year'>2014</span></time>
+<p>rake new_post[&ldquo;Title of your blog post&rdquo;]</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/octopress-project/blog/categories/blogging/'>blogging</a>, <a class='category' href='/octopress-project/blog/categories/octopress/'>octopress</a></span>
-</footer>
+<p>This will create a markdown file including frontmatter to apply the blog post style.  The task creates the file under the _source folder and included the date at the start of the filename.</p>
+
+<!-- more -->
 
 
-</article>
+<p>Now you can edit the file and simply add your content.  Once you have written your blog post you can ask Octopress to generate the html for your new post.</p>
 
+<p>rake generate</p>
+
+<p>You can view the results locally, or simply deploy up to your chosen location (eg. github pages)</p>
+
+<p>rake preview  ;; is that correct ??
+rake deploy</p>
+
+<h2>Adding images</h2>
+
+<p>Images are always a good way to explain concepts or to just get attendtion for your writing.</p>
+
+<p>To add an image to your post, you add the following code</p>
+
+<figure class='code'><figcaption><span>[Insert an image in your post]</span><a href='http://octopress.org/docs/plugins/image-tag/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img class="[class names]" src="/octopress-project/path/to/image" title="[width] [height] [title text [alt text]]" ></span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here is an example with my two cute cats:</p>
+
+<p><img src="/octopress-project/images/kittens-snuggled.png"></p>
+
+<p>Thank you</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">John Stevenson</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-04T15:46:14+00:00" pubdate data-updated="true">Mar 4<span>th</span>, 2014</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/" data-via="jr0cket" data-counturl="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap/" title="Next Post: Create great looking website content with Twitter Bootstrap">Create great looking website content with Twitter Bootstrap &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
 
 </div>
@@ -115,11 +196,15 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/octopress-project/blog/2014/03/04/creating-blog-posts-with-octopress/">Creating Blog Posts With Octopress</a>
+        <a href="/octopress-project/blog/2014/03/why-go-to-a-conference/">Why Go to a Conference</a>
       </li>
     
       <li class="post">
-        <a href="/octopress-project/blog/2014/03/03/first-blog-post-ever-awesome/">First Blog Post Ever - Awesome</a>
+        <a href="/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap/">Create Great Looking Website Content With Twitter Bootstrap</a>
+      </li>
+    
+      <li class="post">
+        <a href="/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/">Creating Blog Posts With Octopress</a>
       </li>
     
   </ul>

@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-04T18:07:27+00:00</updated>
+  <updated>2014-03-11T23:52:29+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -14,10 +14,117 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Why Go to a Conference]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/why-go-to-a-conference/"/>
+    <updated>2014-03-08T16:07:47+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/why-go-to-a-conference</id>
+    <content type="html"><![CDATA[<p>There are a great many developer and tech conferences to got to, some are free, some are relativley cheap and some you hope you can get your company to pay for.  But why should you even consider going to a conference in the first place?</p>
+
+<!-- more -->
+
+
+<h2>As a speaker</h2>
+
+<p>free entry &ndash; maybe even invite a friend of two for free
+wined and dined by the organisers</p>
+
+<p>Best way I know of checking you understand something.
+In fact, presenters are usually the ones that get the most from a conference, they present there ideas and then have some one in the crowd as for &ldquo;a real world example&rdquo;.  Putting yourself on the spot like that and learning how to deal with it puts you in a good place when you go back to work and have to deal with all sorts of other less than plesant situations.</p>
+
+<p>Its fun being a speaker, you get respect for just standing up in front of a crowd and speaking.</p>
+
+<p>Its a great way to develop your career.  Are you tired of boring interview questions or dumb tests that only test your memory rather than your understanding?  A reputation of speaking at conferences goes a long way to cut through the crap that you often get at interview time.</p>
+
+<p>Working a crowd at a presetation helps inmprove you team skills and helps you understand how you can inspire and influence people.  It is good training for real leadership.</p>
+
+<p>I dont know of any speakers who ended up on the IT scrap-heap&hellip;</p>
+
+<h2>As an attendee</h2>
+
+<p>Its a chance to get away from work for a few days and actually think about things.  It can be hard to see the big picture in terms of what you are trying to achieve at work when you are head down getting things done (or fire fighting).</p>
+
+<p>Its good to fine out what is happening in technology and see how others are applying the same tools and languages you use to great value.  Even some small change in approach can make you more effective.</p>
+
+<p>Meet new people and discuss each others concerns.  Its a great chance to meet people in your situation and do some venting, talk about how you face your challenges, swap ideas and</p>
+
+<p>Find out what people are doing and what they are excited about, why they get out of bed in the morning</p>
+
+<p>Its good to put conferences on your CV &ndash; shows initiative, shows you are interested in learing and developing yourself</p>
+
+<p>Its a great way to learn new things, or at least learn what things you should be looking at for the next 6 months &ndash; unless you like turning up to work and doing the same old crap week in week out !!!</p>
+
+<p>It gives you something to talk about with your team when you get back to work, something other than what was on TV last night.</p>
+
+<p>How boring is it to just work with someone who just turns up 9-5 and does nothing else.  I want to work with people who are inspired, passionate and enthusiastic about what they do.  As an employer, why would you ever hire someone who wasnt like this ??  Oh yes, because that employer has either no respect for thier staff or just wants them to do some grunt work &ndash; the IT factory in its worse sense.</p>
+
+<p>Most employeers have no idea about IT and many do not need to know that much, except that they should respect the knowledge workers they hire and empower them to deliver the best possible service they can.  Unfortunately managment has been trained to measure and manage people like a time and cost study, rather than considering the value that their staff can bring them.</p>
+
+<p>Quote:
+Manager &ldquo;What happens if I train my staff and they all leave&rdquo;
+Entreprenure &ldquo;What happens if you dont train your staff and they all stay&rdquo;</p>
+
+<p>If you want a successful business then you need successful people, people who will help you drive the business forward and not be a blocker to the delivery of your ideas.</p>
+
+<p>There have been quite a few organisations that are now able to deliver at the speed of thought, deploying hundereds of ideas a day and getting the best feedback you can in the world &ndash; the customers recieving your service.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Create Great Looking Website Content With Twitter Bootstrap]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap/"/>
+    <updated>2014-03-08T08:16:30+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap</id>
+    <content type="html"><![CDATA[<h2>What is Twitter bootstrap?</h2>
+
+<p>Bootstrap is an HTML5 toolkit from Twitter to help kickstart webapps and web content sites.  It includes a base Cascading Style Sheet (CSS) and HTML for forms, buttons, typography, tables, grids, navigation and much more.</p>
+
+<p>Bootstrap stylesheet provides an easy-to-implement 960 grid for efficient layout, as well as expertly crafted styles for typography, navigation, tables, forms, buttons, and more. To take care of everyday JavaScript touches, Bootstrap provides a well built set of jQuery plugins for drop-down menus, tabs, modal boxes, tooltips, alert messages, and more.</p>
+
+<p>This helps you create a standards compliant, responsive, user-friendly, professionally built HTML5 website, right out of the box.</p>
+
+<h2>Licencing</h2>
+
+<p>licensing terms, under the Apache 2.0 license, provide a great deal of creative freedom. So long as you give the good folks at Twitter due credit for their work, you&rsquo;re free to take, tweak, and customize everything to your heart&rsquo;s content,</p>
+
+<p><a href="http://groups.google.com/group/twitter-bootstrap/browse_thread/thread/378a5bd12316125a/77439483315c58f8?hl=en&amp;lnk=gst&amp;q=license#77439483315c58f8">http://groups.google.com/group/twitter-bootstrap/browse_thread/thread/378a5bd12316125a/77439483315c58f8?hl=en&amp;lnk=gst&amp;q=license#77439483315c58f8</a></p>
+
+<h2>Getting started with Bootstrap</h2>
+
+<p>If you just want to use Bootstrap for your project you can simply include the minified libraries from a content delivery network</p>
+
+<p>{@codeblock lang:html [Use Bootsrapt from a Content Delivery Network (CDN)]}
+&lt;!DOCTYPE html>
+ <html>
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Hack the Tower &ndash; London hackday</title>
+   <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">     <link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/united/bootstrap.min.css" rel="stylesheet">
+   <link href="css/hackthetower.css" rel="stylesheet">
+ </head>
+{@endcodeblock}</p>
+
+<p>In the example, bootstrap has benn included using the netdna content delivery network (CDN), so where ever people view your site from around the world it should not slow down due to loading these styleheets.</p>
+
+<p>You can now use elements from Bootstrap in your project.  To learn what these are, take a look at &hellip; or Google for some of the very many examples out there.</p>
+
+<h2>Working with Bootstrap</h2>
+
+<p>If you want to see the styles that bootstrap uses or carry out some significant customisations, you can also download bootstrap to your laptop as normal CSS files.  Its common practice to put cascading stylesheets into a folder called CSS and JavaScript in a folder called javascript.</p>
+
+<p>If you are doing significant customisation then you could edit the twitter bootstrap files directly.  Alternativley you can create your own CSS and JavaScript files that over-ride the bootstrap styles and scripts.</p>
+
+<h2>Resources</h2>
+
+<h2>The following links will give you ideas on how to make the most out of Bootstrap:</h2>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Creating Blog Posts With Octopress]]></title>
-    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/04/creating-blog-posts-with-octopress/"/>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/"/>
     <updated>2014-03-04T15:46:14+00:00</updated>
-    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/04/creating-blog-posts-with-octopress</id>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress</id>
     <content type="html"><![CDATA[<p>Octopress provides an easy way to create blog posts by proving a task that will automatically place and name your markdown file.  This helps manage your blog posts in a sensible structure and avoids conflicts.</p>
 
 <p>To create a new post, use the following command inside your Octopress project folder:</p>
@@ -53,30 +160,6 @@ rake deploy</p>
 <p><img src="http://jr0cket.github.io/octopress-project/images/kittens-snuggled.png"></p>
 
 <p>Thank you</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Blog Post Ever - Awesome]]></title>
-    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/03/first-blog-post-ever-awesome/"/>
-    <updated>2014-03-03T00:08:42+00:00</updated>
-    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/03/first-blog-post-ever-awesome</id>
-    <content type="html"><![CDATA[<p>This is the first blog post of many in my adventures in learning how to publish a blog using Octopress.</p>
-
-<p>As a developer I want a lightweight tool to create and easily publish content interesting to other developers in the community.  Although I can write HTML, CSS and JavaScript for webapps, I dont want to be slowed down writing these things when I am doing creative writing.</p>
-
-<p>Using Octopress, which is a blogging framework on top of Jekyll, I can write my content using Markdown.  As Markdown is just simple text with a few characters and indents used for formating, I can focus on the writing and make it as appealing as I can.  I dont get distracted by the visual layout of the content and a standard design for the blog is consistently applied.</p>
-
-<!-- more -->
-
-
-<p>The only challenge I had intially was to get a working copy of Ruby running on my Ubuntu laptop.  Jekyll and therefore Octopress requires Ruby version 1.9.3 or greater and Unfortunately I seemed to have a mix of 1.9.1 and 1.9.3.  In Ubuntu 13.10 there is a strange stiuation where the 1.9.3 version of ruby was installed along side version 1.9.1 and therefore errors arrose when trying to generate the site.</p>
-
-<p>To fix Ruby on Ubuntu, I loaded up Synaptic package manager and removed all Ruby packages and anything related, such as gem and bundler.  Then I installed the package ruby2.0 along with the docs and dev packages for that version.  With only the latest version of Ruby installed, Octopress worked perfectly.</p>
-
-<p>I look forward to sharing my further experiences blogging with Octopress</p>
-
-<p>Thank you.</p>
 ]]></content>
   </entry>
   
