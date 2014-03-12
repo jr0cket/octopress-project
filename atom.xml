@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-11T23:57:10+00:00</updated>
+  <updated>2014-03-12T13:55:10+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -81,6 +81,9 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
 <p>Bootstrap stylesheet provides an easy-to-implement 960 grid for efficient layout, as well as expertly crafted styles for typography, navigation, tables, forms, buttons, and more. To take care of everyday JavaScript touches, Bootstrap provides a well built set of jQuery plugins for drop-down menus, tabs, modal boxes, tooltips, alert messages, and more.</p>
 
 <p>This helps you create a standards compliant, responsive, user-friendly, professionally built HTML5 website, right out of the box.</p>
+
+<!-- more -->
+
 
 <h2>Licencing</h2>
 
