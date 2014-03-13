@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-12T13:55:10+00:00</updated>
+  <updated>2014-03-13T16:40:54+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -12,6 +12,28 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress Tips - Using Rake Tasks for Blogging]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/"/>
+    <updated>2014-03-12T17:00:29+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Customise Octopress Themes for Fun and Your Profit]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/"/>
+    <updated>2014-03-12T16:28:28+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit</id>
+    <content type="html"><![CDATA[<p>Octopress themes are stored in the the root folder of your project in a folder called .themes.  If you installed one of the custom themes for Octopress [link], the .themes folder is where the instructions tell you to clone the theme git repository.</p>
+
+<p>Themes can also be installed by passing a parameter to the rake install command. the default theme being “classic”.</p>
+
+<p>Using the .theme folder for your themes helps ensure that your customisations do not get over-written by Octopress updates .</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why Go to a Conference]]></title>
@@ -132,7 +154,9 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
 
 <p>To create a new post, use the following command inside your Octopress project folder:</p>
 
-<p>rake new_post[&ldquo;Title of your blog post&rdquo;]</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["Title of your blog post"]</span></code></pre></td></tr></table></div></figure>
+
 
 <p>This will create a markdown file including frontmatter to apply the blog post style.  The task creates the file under the _source folder and included the date at the start of the filename.</p>
 
@@ -141,12 +165,17 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
 
 <p>Now you can edit the file and simply add your content.  Once you have written your blog post you can ask Octopress to generate the html for your new post.</p>
 
-<p>rake generate</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
+
 
 <p>You can view the results locally, or simply deploy up to your chosen location (eg. github pages)</p>
 
-<p>rake preview  ;; is that correct ??
-rake deploy</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview  ;; is that correct ??
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
 
 <h2>Adding images</h2>
 
@@ -162,7 +191,19 @@ rake deploy</p>
 
 <p><img src="http://jr0cket.github.io/octopress-project/images/kittens-snuggled.png"></p>
 
-<p>Thank you</p>
+<h3>More examples</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img src="http://placekitten.com/890/280">
+</span><span class='line'>  &lt;img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></span></code></pre></td></tr></table></div></figure>
+
+
+
 ]]></content>
   </entry>
   

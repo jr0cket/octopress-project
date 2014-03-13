@@ -95,7 +95,9 @@
 
 <p>To create a new post, use the following command inside your Octopress project folder:</p>
 
-<p>rake new_post[&ldquo;Title of your blog post&rdquo;]</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake new_post["Title of your blog post"]</span></code></pre></td></tr></table></div></figure>
+
 
 <p>This will create a markdown file including frontmatter to apply the blog post style.  The task creates the file under the _source folder and included the date at the start of the filename.</p>
 
@@ -104,12 +106,17 @@
 
 <p>Now you can edit the file and simply add your content.  Once you have written your blog post you can ask Octopress to generate the html for your new post.</p>
 
-<p>rake generate</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake generate</span></code></pre></td></tr></table></div></figure>
+
 
 <p>You can view the results locally, or simply deploy up to your chosen location (eg. github pages)</p>
 
-<p>rake preview  ;; is that correct ??
-rake deploy</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview  ;; is that correct ??
+</span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
 
 <h2>Adding images</h2>
 
@@ -125,7 +132,19 @@ rake deploy</p>
 
 <p><img src="/octopress-project/images/kittens-snuggled.png"></p>
 
-<p>Thank you</p>
+<h3>More examples</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img src="http://placekitten.com/890/280">
+</span><span class='line'>  &lt;img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></span></code></pre></td></tr></table></div></figure>
+
+
+
 </div>
 
 
@@ -196,6 +215,14 @@ rake deploy</p>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/">Octopress Tips - Using Rake Tasks for Blogging</a>
+      </li>
+    
+      <li class="post">
+        <a href="/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/">Customise Octopress Themes for Fun and Your Profit</a>
+      </li>
     
       <li class="post">
         <a href="/octopress-project/blog/2014/03/why-go-to-a-conference/">Why Go to a Conference</a>
