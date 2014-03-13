@@ -114,8 +114,14 @@
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview  ;; is that correct ??
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake preview
 </span><span class='line'>rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If you are confident about the changes you are making, or have a test website you are deploying to, then you can use a single command to generate the new version of the site and publish it directly.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>rake gen_deploy</span></code></pre></td></tr></table></div></figure>
 
 
 <h2>Adding images</h2>
@@ -144,7 +150,31 @@
 </span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></span></code></pre></td></tr></table></div></figure>
 
 
+<h2>Showing code</h2>
 
+<h3>Code blocks</h3>
+
+<p>You can embed code snippets directly in the markup of the blog posts you write using the codeblock directive.
+<a href="http://octopress.org/docs/plugins/codeblock/">http://octopress.org/docs/plugins/codeblock/</a></p>
+
+<p>These are okay but I have not figured out a way to stop Octopress examples from rendering incorrectly (unless there is an Octopress update that fixes this)</p>
+
+<h3>Github Gists</h3>
+
+<p>I am used to using Github and Gists for sharing and collaborating around code, so as Octopress can use Gits then I have started using the gist directive.</p>
+
+<div><script src='https://gist.github.com/9532424.js'></script>
+<noscript><pre><code>## Gist Syntax for Octopress
+
+{% gist gist_id [filename] %}
+
+
+## Example Gist in Octopress
+
+{% gist 9532424 %}</code></pre></noscript></div>
+
+
+<p>Thank you</p>
 </div>
 
 
