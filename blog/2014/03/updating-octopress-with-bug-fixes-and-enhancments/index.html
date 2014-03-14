@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopress Tips - Using Rake Tasks for Blogging - jr0cket - community developer</title>
+  <title>Updating Octopress With Bug Fixes and Enhancments - jr0cket - community developer</title>
   <meta name="author" content="John Stevenson">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="For each Octopres project you have created (ie. for each blog / website you created with Octopress) you need to pull some code from Github remote ( &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging">
+  <link rel="canonical" href="http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments">
   <link href="/octopress-project/favicon.png" rel="icon">
   <link href="/octopress-project/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/octopress-project/atom.xml" rel="alternate" title="jr0cket - community developer" type="application/atom+xml">
@@ -69,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">Octopress Tips - Using Rake Tasks for Blogging</h1>
+      <h1 class="entry-title">Updating Octopress With Bug Fixes and Enhancments</h1>
     
     
       <p class="meta">
@@ -85,14 +84,26 @@
   
 
 
-<time datetime="2014-03-12T17:00:29+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
+<time datetime="2014-03-13T19:32:54+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>For each Octopres project you have created (ie. for each blog / website you created with Octopress) you need to pull some code from Github remote (octopress master) and run a few rake tasks.</p>
+
+<p>Before you start with an update, check you Octopress projects files have been added to the Git repository or Stashed out of the way &ndash; as Octopress will try and overwrite them (although as its using git it will fail and warn you about a merge conflict).</p>
+
+<pre><code>git pull octopress master     # Get the latest Octopress
+bundle install                # Keep gems updated
+rake update_source            # update the template's source
+rake update_style             # update the template's style
+</code></pre>
+
+<p><a href="http://octopress.org/docs/updating/">http://octopress.org/docs/updating/</a></p>
+
+<p>Thank you</p>
 </div>
 
 
@@ -115,7 +126,7 @@
   
 
 
-<time datetime="2014-03-12T17:00:29+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
+<time datetime="2014-03-13T19:32:54+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
       
 
 
@@ -123,7 +134,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/" data-via="jr0cket" data-counturl="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments/" data-via="jr0cket" data-counturl="http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -136,10 +147,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/" title="Previous Post: Customise Octopress themes for fun and your profit">&laquo; Customise Octopress themes for fun and your profit</a>
+        <a class="basic-alignment left" href="/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/" title="Previous Post: Creating content in markdown for your Octopress blog">&laquo; Creating content in markdown for your Octopress blog</a>
       
-      
-        <a class="basic-alignment right" href="/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/" title="Next Post: Creating content in markdown for your Octopress blog">Creating content in markdown for your Octopress blog &raquo;</a>
       
     </p>
   </footer>

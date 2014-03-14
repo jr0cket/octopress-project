@@ -10,7 +10,7 @@
         <loc>
             http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/
         </loc>
-        <lastmod>2014-03-13T19:21:30+00:00</lastmod>
+        <lastmod>2014-03-13T19:39:57+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -26,7 +26,7 @@
         <loc>
             http://jr0cket.github.io/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/
         </loc>
-        <lastmod>2014-03-13T19:14:26+00:00</lastmod>
+        <lastmod>2014-03-14T09:26:26+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -35,12 +35,24 @@
         <lastmod>2014-03-13T19:14:26+00:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/
+        </loc>
+        <lastmod>2014-03-14T09:37:59+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments/
+        </loc>
+        <lastmod>2014-03-13T19:47:52+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://jr0cket.github.io/octopress-project/blog/archives/</loc>
-        <lastmod>2014-03-13T19:21:30+00:00</lastmod>
+        <lastmod>2014-03-14T09:37:59+00:00</lastmod>
     </url>
     <url>
         <loc>http://jr0cket.github.io/octopress-project/</loc>
-        <lastmod>2014-03-13T19:21:30+00:00</lastmod>
+        <lastmod>2014-03-14T09:37:59+00:00</lastmod>
     </url>
     <url>
         <loc>http://jr0cket.github.io/octopress-project/robots.txt</loc>

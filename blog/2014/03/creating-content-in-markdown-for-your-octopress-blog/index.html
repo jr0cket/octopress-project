@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Octopress Tips - Using Rake Tasks for Blogging - jr0cket - community developer</title>
+  <title>Creating Content in Markdown for Your Octopress Blog - jr0cket - community developer</title>
   <meta name="author" content="John Stevenson">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="Octopress enables the creation of great looking blog post using simple markdown text. This gives you a no-fuss way of writing your blogs without &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging">
+  <link rel="canonical" href="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog">
   <link href="/octopress-project/favicon.png" rel="icon">
   <link href="/octopress-project/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/octopress-project/atom.xml" rel="alternate" title="jr0cket - community developer" type="application/atom+xml">
@@ -69,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">Octopress Tips - Using Rake Tasks for Blogging</h1>
+      <h1 class="entry-title">Creating Content in Markdown for Your Octopress Blog</h1>
     
     
       <p class="meta">
@@ -85,14 +84,90 @@
   
 
 
-<time datetime="2014-03-12T17:00:29+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
+<time datetime="2014-03-13T19:32:20+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>Octopress enables the creation of great looking blog post using simple markdown text.  This gives you a no-fuss way of writing your blogs without getting distracted.  Here I will cover how to add formatting to you text and embedding code and other useful media into your blog posts.</p>
+
+<blockquote><p>In my previous blog on Octopress I covered the blogging workflow and the handful of rake commands that help you create and deploy your blog posts consistently.</p></blockquote>
+
+
+<h2>Adding styles to text</h2>
+
+<p>Headings
+Bold, italic</p>
+
+<h2>Adding images</h2>
+
+<p>Images are always a good way to explain concepts or to just get attendtion for your writing.</p>
+
+<p>To add an image to your post, you add the following code</p>
+
+<figure class='code'><figcaption><span>[Insert an image in your post]</span><a href='http://octopress.org/docs/plugins/image-tag/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img class="[class names]" src="/octopress-project/path/to/image" title="[width] [height] [title text [alt text]]" ></span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here is an example with my two cute cats:</p>
+
+<p><img src="/octopress-project/images/kittens-snuggled.png"></p>
+
+<h3>More examples</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;img src="http://placekitten.com/890/280">
+</span><span class='line'>  &lt;img class="left" src="http://placekitten.com/320/250" title="Place Kitten #2" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #3" >
+</span><span class='line'>  &lt;img class="right" src="http://placekitten.com/300/500" width="150" height="250" title="Place Kitten #4" alt="An image of a very cute kitten"></span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Showing code</h2>
+
+<h3>Code blocks</h3>
+
+<p>You can embed code snippets directly in the markup of the blog posts you write using the codeblock directive.
+<a href="http://octopress.org/docs/plugins/codeblock/">http://octopress.org/docs/plugins/codeblock/</a></p>
+
+<p>These are okay but I have not figured out a way to stop Octopress examples from rendering incorrectly (unless there is an Octopress update that fixes this)</p>
+
+<h3>Github Gists</h3>
+
+<p>I am used to using Github and Gists for sharing and collaborating around code, so as Octopress can use Gits then I have started using the gist directive.</p>
+
+<div><script src='https://gist.github.com/9532424.js'></script>
+<noscript><pre><code>## Gist Syntax for Octopress
+
+{% gist gist_id [filename] %}
+
+
+## Example Gist in Octopress
+
+{% gist 9532424 %}</code></pre></noscript></div>
+
+
+<p>See the <a href="Octopress%20article%20on%20Github%20gists">http://octopress.org/docs/plugins/gist-tag/</a> for a few more examples.</p>
+
+<h2>Adding Video</h2>
+
+<p>This plugin makes it easy to insert mp4 encoded HTML5 videos in a post. Octopress ships with javascripts which detect mp4 video support (using Modernizr) and automatically offer a flash player fallback.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>video url/to/video [width height] [url/to/poster]</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Example</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>```&lt;video width='' height='' preload='none' controls poster=''>&lt;source src='http://s3.imathis.com/video/zero-to-fancy-buttons.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>&lt;source src='http://s3.imathis.com/video/zero-to-fancy-buttons.png' >&lt;/video>```</span></code></pre></td></tr></table></div></figure>
+
+
+
 </div>
 
 
@@ -115,7 +190,7 @@
   
 
 
-<time datetime="2014-03-12T17:00:29+00:00" pubdate data-updated="true">Mar 12<span>th</span>, 2014</time>
+<time datetime="2014-03-13T19:32:20+00:00" pubdate data-updated="true">Mar 13<span>th</span>, 2014</time>
       
 
 
@@ -123,7 +198,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/" data-via="jr0cket" data-counturl="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/" data-via="jr0cket" data-counturl="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -136,10 +211,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/" title="Previous Post: Customise Octopress themes for fun and your profit">&laquo; Customise Octopress themes for fun and your profit</a>
+        <a class="basic-alignment left" href="/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/" title="Previous Post: Octopress tips - using rake tasks for blogging">&laquo; Octopress tips - using rake tasks for blogging</a>
       
       
-        <a class="basic-alignment right" href="/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/" title="Next Post: Creating content in markdown for your Octopress blog">Creating content in markdown for your Octopress blog &raquo;</a>
+        <a class="basic-alignment right" href="/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments/" title="Next Post: Updating Octopress with bug fixes and enhancments">Updating Octopress with bug fixes and enhancments &raquo;</a>
       
     </p>
   </footer>
