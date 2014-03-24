@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-24T22:13:09+00:00</updated>
+  <updated>2014-03-24T22:27:46+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -112,6 +112,11 @@ rake update_style             # update the template's style
 <blockquote><p>In my previous blog on Octopress I covered the blogging workflow and the handful of rake commands that help you create and deploy your blog posts consistently.</p></blockquote>
 
 
+
+
+<!-- more -->
+
+
 <h2>Adding styles to text</h2>
 
 <p>Headings
@@ -184,7 +189,7 @@ Bold, italic</p>
 <h3>Example</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>```&lt;video width='' height='' preload='none' controls poster=''>&lt;source src='http://s3.imathis.com/video/zero-to-fancy-buttons.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>&lt;source src='http://s3.imathis.com/video/zero-to-fancy-buttons.png' >&lt;/video>```</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>{ video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 http://s3.imathis.com/video/zero-to-fancy-buttons.png }</span></code></pre></td></tr></table></div></figure>
 
 
 
@@ -210,6 +215,9 @@ Bold, italic</p>
 <p>Themes can also be installed by passing a parameter to the rake install command. the default theme being “classic”.</p>
 
 <p>Using the .theme folder for your themes helps ensure that your customisations do not get over-written by Octopress updates .</p>
+
+<!-- more-->
+
 
 <h2>Including font families</h2>
 
