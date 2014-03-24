@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-14T09:38:07+00:00</updated>
+  <updated>2014-03-24T21:23:20+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -14,7 +14,75 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Updating Octopress With Bug Fixes and Enhancments]]></title>
+    <title type="html"><![CDATA[Emacs Org-mode for all your content]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/emacs-org-mode-for-all-your-content/"/>
+    <updated>2014-03-16T12:35:37+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/emacs-org-mode-for-all-your-content</id>
+    <content type="html"><![CDATA[<p>Emacs is a tool that just keeps on giving and Org-mode is a fantantastic way to create text based content and manage it effectively.  Unfortunately, outside of Emacs nothing uses Org-mode formating.  However, as Org-mode is just a text format then it can be easily converted by Emacs into other things.  I&rsquo;ll show you how to create other formats from Org-mode, so you can confidently write everything in Org-mode and generate any other formats you need.</p>
+
+<!-- more -->
+
+
+<p>[TODO: a bit too wordy]</p>
+
+<blockquote><p>In previous articles I have covered generating presentations from Org-mode using Reveal.js.</p></blockquote>
+
+
+<h2>Why write in Org-mode</h2>
+
+<p>If you are writing anything more than a few paragraphs of text then it gets quite easy to become lost in your own writing.  Having to scroll around to see what you covered earlier can slow down your creative process.</p>
+
+<p>With Org-mode you can structure you content easily, as your &ldquo;topics or table of contents&rdquo; are your structure.  Every heading and sub-heading can fold away the content underneath it, unfolding the only the parts of your writing you want to see.</p>
+
+<p>Another useful aspect of Org-mode is that it hides the link part of the URL, so you only see the text part of the link.  This helps keep your text easy to read.</p>
+
+<p>As with many other languages supported by Emacs you also get colour highlighting for different styles along with spell checking and suggested words as you type.</p>
+
+<p>[TODO: Insert picture of Org-mode &ndash; or maybe even a video]</p>
+
+<h2>Reasons I need to use Markdown</h2>
+
+<p>I use markdown for my Jekyll based blog and website and as these are relativley small I often just write them directly in Markdown.  However, if its a series of posts on the same topic then I can easily structure that series using Org-mode and generate the markdown content when I am ready to add it to my blog.</p>
+
+<p>I also need to use markdown for the self-publishing book website, <a href="LeanPub">https://leanpub.com/</a>.  I write the whole book in Org-mode, again so I can structure it sensibly and jump to specific parts of the content easily.  I can also see topics (headings) I have written about in each chapter of the book very easily by open and closing sections of the Org-mode file.</p>
+
+<h2>Generating Markdown from Org-mode</h2>
+
+<p>In Emacs, open your Org-mode file (or switch to the buffer containing it).  Then export a copy of then content into markdown with one of the following commands</p>
+
+<pre><code>M-x org-md-export-to-markdown
+C-c C-e m m
+</code></pre>
+
+<p>Exports the current Org-mode file as a new text file of the same name but with the .md extension rather than .org.</p>
+
+<p>When you export again, the .md file will be overwritten without warning, so if you want to make changes you edit the Org-mode file and re-generate the markdown file.</p>
+
+<p>If you want to see the markdown file as soon as it is created, use the following command to open it in Emacs:</p>
+
+<pre><code>C-c C-e m o
+</code></pre>
+
+<p>If you do not wish to create a file from the export, the following command generated markdown and places it inside a tempory Emacs buffer:</p>
+
+<pre><code>M-x org-md-export-as-markdown
+C-c C-e m M 
+</code></pre>
+
+<p>[TODO: what does this command do?]</p>
+
+<pre><code>M-x org-md-convert-region-to-markdown
+</code></pre>
+
+<p>The Markdown export is build on top of the <a href="HTML%20export">http://orgmode.org/manual/HTML-export.html#HTML-export</a> and anything not supported by the markdown syntax will be converted by that HTML export process.  See the Org-mode website for more details on <a href="exporting%20markdown">http://orgmode.org/manual/Markdown-export.html#Markdown-export</a> and other formats.</p>
+
+<blockquote><p>Note: for the header and sectioning structure the Markdown export can generate both atx and setext types for headlines, according to org-md-headline-style. ATX introduces a hard limit of two levels of headings, whereas Setext pushes it to six. Headings below that limit are exported as lists. You can also set a soft limit before that one (see [http://orgmode.org/manual/Export-settings.html#Export-settings](Export settings)).</p></blockquote>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Updating Octopress with bug fixes and enhancments]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments/"/>
     <updated>2014-03-13T19:32:54+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/updating-octopress-with-bug-fixes-and-enhancments</id>
@@ -35,7 +103,7 @@ rake update_style             # update the template's style
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Creating Content in Markdown for Your Octopress Blog]]></title>
+    <title type="html"><![CDATA[Creating content in markdown for your Octopress blog]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog/"/>
     <updated>2014-03-13T19:32:20+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/creating-content-in-markdown-for-your-octopress-blog</id>
@@ -84,6 +152,8 @@ Bold, italic</p>
 
 <p>These are okay but I have not figured out a way to stop Octopress examples from rendering incorrectly (unless there is an Octopress update that fixes this)</p>
 
+<p>[TODO &ndash; figure out how to show code snippets that are also liquid calls]</p>
+
 <h3>Github Gists</h3>
 
 <p>I am used to using Github and Gists for sharing and collaborating around code, so as Octopress can use Gits then I have started using the gist directive.</p>
@@ -109,6 +179,8 @@ Bold, italic</p>
 </pre></td><td class='code'><pre><code class=''><span class='line'>video url/to/video [width height] [url/to/poster]</span></code></pre></td></tr></table></div></figure>
 
 
+<p><a href="http://octopress.org/docs/plugins/video-tag/">http://octopress.org/docs/plugins/video-tag/</a></p>
+
 <h3>Example</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -120,7 +192,7 @@ Bold, italic</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Octopress Tips - Using Rake Tasks for Blogging]]></title>
+    <title type="html"><![CDATA[Octopress tips - using rake tasks for blogging]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging/"/>
     <updated>2014-03-12T17:00:29+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/octopress-tips-using-rake-tasks-for-blogging</id>
@@ -129,7 +201,7 @@ Bold, italic</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Customise Octopress Themes for Fun and Your Profit]]></title>
+    <title type="html"><![CDATA[Customise Octopress themes for fun and your profit]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit/"/>
     <updated>2014-03-12T16:28:28+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/customise-octopress-themes-for-fun-and-your-profit</id>
@@ -366,7 +438,7 @@ Bold, italic</p>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Why Go to a Conference]]></title>
+    <title type="html"><![CDATA[Why go to a conference]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/why-go-to-a-conference/"/>
     <updated>2014-03-08T16:07:47+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/why-go-to-a-conference</id>
@@ -422,7 +494,7 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Create Great Looking Website Content With Twitter Bootstrap]]></title>
+    <title type="html"><![CDATA[Create great looking website content with Twitter Bootstrap]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap/"/>
     <updated>2014-03-08T08:16:30+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/create-great-looking-website-content-with-twitter-bootstrap</id>
@@ -476,7 +548,7 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Creating Blog Posts With Octopress]]></title>
+    <title type="html"><![CDATA[Creating blog posts with Octopress]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress/"/>
     <updated>2014-03-04T15:46:14+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/creating-blog-posts-with-octopress</id>
@@ -522,7 +594,7 @@ Entreprenure &ldquo;What happens if you dont train your staff and they all stay&
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[First Blog Post Ever - Awesome]]></title>
+    <title type="html"><![CDATA[First blog post ever - awesome]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome/"/>
     <updated>2014-03-03T00:08:42+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome</id>

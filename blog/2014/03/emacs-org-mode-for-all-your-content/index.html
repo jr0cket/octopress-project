@@ -1,0 +1,205 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Emacs Org-mode for all your content - jr0cket - community developer</title>
+	<meta name="author" content="John Stevenson">
+
+	
+	<meta name="description" content="Emacs is a tool that just keeps on giving and Org-mode is a fantantastic way to create text based content and manage it effectively. Unfortunately, &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/octopress-project/atom.xml" rel="alternate" title="jr0cket - community developer" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/octopress-project/favicon.png" rel="shortcut icon">
+	<link href="/octopress-project/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script async="true" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+
+<body>
+	<header id="header" class="inner"><h1><a href="/octopress-project/">jr0cket - community developer</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/octopress-project/">Blog</a></li>
+	<li><a href="/octopress-project/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/octopress-project/">Blog</a></li>
+	<li><a href="/octopress-project/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:jr0cket.github.io/octopress-project">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		<a class="google" href="https://plus.google.com/117080433375668558463?rel=author" title="Google+">Google+</a>
+		
+		
+		<a class="twitter" href="http://twitter.com/jr0cket" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/jr0cket" title="GitHub">GitHub</a>
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/octopress-project/atom.xml" title="RSS">RSS</a>
+		
+    
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:jr0cket.github.io/octopress-project">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+	<h2 class="title">Emacs Org-mode for All Your Content</h2>
+	<div class="entry-content"><p>Emacs is a tool that just keeps on giving and Org-mode is a fantantastic way to create text based content and manage it effectively.  Unfortunately, outside of Emacs nothing uses Org-mode formating.  However, as Org-mode is just a text format then it can be easily converted by Emacs into other things.  I&rsquo;ll show you how to create other formats from Org-mode, so you can confidently write everything in Org-mode and generate any other formats you need.</p>
+
+<!-- more -->
+
+
+<p>[TODO: a bit too wordy]</p>
+
+<blockquote><p>In previous articles I have covered generating presentations from Org-mode using Reveal.js.</p></blockquote>
+
+
+<h2>Why write in Org-mode</h2>
+
+<p>If you are writing anything more than a few paragraphs of text then it gets quite easy to become lost in your own writing.  Having to scroll around to see what you covered earlier can slow down your creative process.</p>
+
+<p>With Org-mode you can structure you content easily, as your &ldquo;topics or table of contents&rdquo; are your structure.  Every heading and sub-heading can fold away the content underneath it, unfolding the only the parts of your writing you want to see.</p>
+
+<p>Another useful aspect of Org-mode is that it hides the link part of the URL, so you only see the text part of the link.  This helps keep your text easy to read.</p>
+
+<p>As with many other languages supported by Emacs you also get colour highlighting for different styles along with spell checking and suggested words as you type.</p>
+
+<p>[TODO: Insert picture of Org-mode &ndash; or maybe even a video]</p>
+
+<h2>Reasons I need to use Markdown</h2>
+
+<p>I use markdown for my Jekyll based blog and website and as these are relativley small I often just write them directly in Markdown.  However, if its a series of posts on the same topic then I can easily structure that series using Org-mode and generate the markdown content when I am ready to add it to my blog.</p>
+
+<p>I also need to use markdown for the self-publishing book website, <a href="LeanPub">https://leanpub.com/</a>.  I write the whole book in Org-mode, again so I can structure it sensibly and jump to specific parts of the content easily.  I can also see topics (headings) I have written about in each chapter of the book very easily by open and closing sections of the Org-mode file.</p>
+
+<h2>Generating Markdown from Org-mode</h2>
+
+<p>In Emacs, open your Org-mode file (or switch to the buffer containing it).  Then export a copy of then content into markdown with one of the following commands</p>
+
+<pre><code>M-x org-md-export-to-markdown
+C-c C-e m m
+</code></pre>
+
+<p>Exports the current Org-mode file as a new text file of the same name but with the .md extension rather than .org.</p>
+
+<p>When you export again, the .md file will be overwritten without warning, so if you want to make changes you edit the Org-mode file and re-generate the markdown file.</p>
+
+<p>If you want to see the markdown file as soon as it is created, use the following command to open it in Emacs:</p>
+
+<pre><code>C-c C-e m o
+</code></pre>
+
+<p>If you do not wish to create a file from the export, the following command generated markdown and places it inside a tempory Emacs buffer:</p>
+
+<pre><code>M-x org-md-export-as-markdown
+C-c C-e m M 
+</code></pre>
+
+<p>[TODO: what does this command do?]</p>
+
+<pre><code>M-x org-md-convert-region-to-markdown
+</code></pre>
+
+<p>The Markdown export is build on top of the <a href="HTML%20export">http://orgmode.org/manual/HTML-export.html#HTML-export</a> and anything not supported by the markdown syntax will be converted by that HTML export process.  See the Org-mode website for more details on <a href="exporting%20markdown">http://orgmode.org/manual/Markdown-export.html#Markdown-export</a> and other formats.</p>
+
+<blockquote><p>Note: for the header and sectioning structure the Markdown export can generate both atx and setext types for headlines, according to org-md-headline-style. ATX introduces a hard limit of two levels of headings, whereas Setext pushes it to six. Headings below that limit are exported as lists. You can also set a soft limit before that one (see [http://orgmode.org/manual/Export-settings.html#Export-settings](Export settings)).</p></blockquote>
+
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-16T12:35:37+00:00" pubdate data-updated="true">Mar 16<span>th</span>, 2014</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+		
+		<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+		
+		
+		<a class="addthis_button_tweet"></a>
+		
+		
+		<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+		
+		
+	</div>
+	
+</div>
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2014
+
+    John Stevenson
+
+</footer>
+	<script src="/octopress-project/javascripts/slash.js"></script>
+<script src="/octopress-project/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

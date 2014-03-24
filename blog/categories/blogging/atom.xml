@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Blogging | jr0cket - community developer]]></title>
+  <title><![CDATA[Category: blogging | jr0cket - community developer]]></title>
   <link href="http://jr0cket.github.io/octopress-project/blog/categories/blogging/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-14T09:38:07+00:00</updated>
+  <updated>2014-03-24T21:23:20+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[First Blog Post Ever - Awesome]]></title>
+    <title type="html"><![CDATA[First blog post ever - awesome]]></title>
     <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome/"/>
     <updated>2014-03-03T00:08:42+00:00</updated>
     <id>http://jr0cket.github.io/octopress-project/blog/2014/03/first-blog-post-ever-awesome</id>
