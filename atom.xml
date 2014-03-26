@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-26T14:50:15+00:00</updated>
+  <updated>2014-03-26T19:51:37+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Heroku deploy - a lot happens in 1 minute]]></title>
+    <link href="http://jr0cket.github.io/octopress-project/blog/2014/03/heroku-deploy-a-lot-happens-in-1-minute/"/>
+    <updated>2014-03-26T19:36:33+00:00</updated>
+    <id>http://jr0cket.github.io/octopress-project/blog/2014/03/heroku-deploy-a-lot-happens-in-1-minute</id>
+    <content type="html"><![CDATA[<p>As technology progresses then taking a few minutes to deploy your app can seem like a long time, but when you consider everything Heroku is doing during that time then its quite amazing</p>
+
+<h2>Provision server resources &amp; managing traffic</h2>
+
+<p>Heroku creates a new &ldquo;server&rdquo; each time you deploy, so that the currently live application can still handle reuests until the new version is ready.  Rather than a whole bloated server, Heroku actually creates a new Linux container with a running OS.  This Linux container usually takes a second or less to create with a running operating system.</p>
+
+<h2>The environment is then established</h2>
+
+<p>Every language you use to write your application needs some kind of runtime, eg. if you need Java you need the JVM, Ruby apps need a particular version of Ruby, Javascript probably needs nodejs and PHP needs a webserver.  As part of the Heroku buildpack used during the deployment, the relevant libraries and platforms are brought in.  Unless you change the configuration of your build or the buildfile you use, Heroku will always bring in the same version of the environment you need to run your app each time you deploy.</p>
+
+<h2>Compilation of code</h2>
+
+<p>If your app is compiled, then the build process is run so you have a deployment made from your standard production build.</p>
+
+<p>Environment variables are set for the applications and any services (caching, logging, monitoring, etc) or datastores (postgres, redis, mongodb) are therefore automatically connected too.</p>
+
+<p>All the relevant processes are run and scalled (can you scale your app to a certain level when you deploy)</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Emacs Org-mode for all your content]]></title>

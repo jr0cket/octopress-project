@@ -7,7 +7,7 @@
 	<meta name="author" content="John Stevenson">
 
 	
-	<meta name="description" content="Emacs is a tool that just keeps on giving and Org-mode is a fantantastic way to create text based content and manage it effectively. Unfortunately, &hellip;">
+	<meta name="description" content="As technology progresses then taking a few minutes to deploy your app can seem like a long time, but when you consider everything Heroku is doing &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -85,6 +85,59 @@
 		
 	
 	<div id="content" class="inner">
+
+
+    <article class="post">
+	<h2 class="title">
+		
+		<a href="/octopress-project/blog/2014/03/heroku-deploy-a-lot-happens-in-1-minute/">
+		
+			Heroku Deploy - a Lot Happens in 1 Minute</a>
+	</h2>
+	<div class="entry-content">
+		<p>As technology progresses then taking a few minutes to deploy your app can seem like a long time, but when you consider everything Heroku is doing during that time then its quite amazing</p>
+
+<h2>Provision server resources &amp; managing traffic</h2>
+
+<p>Heroku creates a new &ldquo;server&rdquo; each time you deploy, so that the currently live application can still handle reuests until the new version is ready.  Rather than a whole bloated server, Heroku actually creates a new Linux container with a running OS.  This Linux container usually takes a second or less to create with a running operating system.</p>
+
+<h2>The environment is then established</h2>
+
+<p>Every language you use to write your application needs some kind of runtime, eg. if you need Java you need the JVM, Ruby apps need a particular version of Ruby, Javascript probably needs nodejs and PHP needs a webserver.  As part of the Heroku buildpack used during the deployment, the relevant libraries and platforms are brought in.  Unless you change the configuration of your build or the buildfile you use, Heroku will always bring in the same version of the environment you need to run your app each time you deploy.</p>
+
+<h2>Compilation of code</h2>
+
+<p>If your app is compiled, then the build process is run so you have a deployment made from your standard production build.</p>
+
+<p>Environment variables are set for the applications and any services (caching, logging, monitoring, etc) or datastores (postgres, redis, mongodb) are therefore automatically connected too.</p>
+
+<p>All the relevant processes are run and scalled (can you scale your app to a certain level when you deploy)</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-26T19:36:33+00:00" pubdate data-updated="true">Mar 26<span>th</span>, 2014</time></div>
+	<div class="tags">
+
+</div>
+	
+</div>
+</article>
 
 
     <article class="post">

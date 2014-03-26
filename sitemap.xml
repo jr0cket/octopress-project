@@ -53,12 +53,18 @@
         <lastmod>2014-03-24T21:23:03+00:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://jr0cket.github.io/octopress-project/blog/2014/03/heroku-deploy-a-lot-happens-in-1-minute/
+        </loc>
+        <lastmod>2014-03-26T19:51:21+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://jr0cket.github.io/octopress-project/blog/archives/</loc>
-        <lastmod>2014-03-26T14:50:02+00:00</lastmod>
+        <lastmod>2014-03-26T19:51:21+00:00</lastmod>
     </url>
     <url>
         <loc>http://jr0cket.github.io/octopress-project/</loc>
-        <lastmod>2014-03-26T14:50:02+00:00</lastmod>
+        <lastmod>2014-03-26T19:51:21+00:00</lastmod>
     </url>
     <url>
         <loc>http://jr0cket.github.io/octopress-project/robots.txt</loc>
