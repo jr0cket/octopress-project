@@ -4,7 +4,7 @@
   <title><![CDATA[jr0cket]]></title>
   <link href="http://jr0cket.github.io/octopress-project/atom.xml" rel="self"/>
   <link href="http://jr0cket.github.io/octopress-project/"/>
-  <updated>2014-03-25T20:47:03+00:00</updated>
+  <updated>2014-03-26T14:50:15+00:00</updated>
   <id>http://jr0cket.github.io/octopress-project/</id>
   <author>
     <name><![CDATA[John Stevenson]]></name>
@@ -188,11 +188,7 @@ Bold, italic</p>
 
 <h3>Example</h3>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>{ video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 http://s3.imathis.com/video/zero-to-fancy-buttons.png }</span></code></pre></td></tr></table></div></figure>
-
-
-
+<p> <video width='' height='' preload='none' controls poster=''><source src='http://s3.imathis.com/video/zero-to-fancy-buttons.mp4' type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'><source src='http://s3.imathis.com/video/zero-to-fancy-buttons.png' ></video></p>
 ]]></content>
   </entry>
   
